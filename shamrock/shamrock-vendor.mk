@@ -19,7 +19,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/shamrock/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/google/shamrock/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
     vendor/google/shamrock/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/google/shamrock/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
 	vendor/google/shamrock/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/google/shamrock/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/google/shamrock/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
@@ -31,9 +30,8 @@ PRODUCT_COPY_FILES += \
     vendor/google/shamrock/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/google/shamrock/proprietary/bin/radish:system/bin/radish \
     vendor/google/shamrock/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/google/shamrock/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/google/shamrock/proprietary/bin/time_daemon:system/bin/time_daemon \
-     vendor/google/shamrock/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
+    vendor/google/shamrock/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/google/shamrock/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
     vendor/google/shamrock/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
     vendor/google/shamrock/proprietary/etc/acdbdata/MTP/MTP_Handset_cal.acdb:system/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
@@ -114,9 +112,9 @@ PRODUCT_COPY_FILES += \
     vendor/google/shamrock/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/google/shamrock/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/google/shamrock/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
-    vendor/google/shamrock/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/vendor/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
-    vendor/google/shamrock/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/vendor/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
-    vendor/google/shamrock/proprietary/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat:system/vendor/firmware/wlan/prima/WCNSS_wlan_dictionary.dat \
+    vendor/google/shamrock/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
+    vendor/google/shamrock/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
+    vendor/google/shamrock/proprietary/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat:system/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat \
     vendor/google/shamrock/proprietary/etc/pp_calib_data_goworld_1080p_video_mode_dsi_panel.xml:system/etc/pp_calib_data_goworld_1080p_video_mode_dsi_panel.xml \
     vendor/google/shamrock/proprietary/lib/hw/camera.msm8952.so:system/lib/hw/camera.msm8952.so \
     vendor/google/shamrock/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
@@ -147,6 +145,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/shamrock/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
     vendor/google/shamrock/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/google/shamrock/proprietary/vendor/bin/qti:system/vendor/bin/qti \
+	vendor/google/shamrock/proprietary/vendor/bin/sensors.qcom:system/vendor/bin/sensors.qcom \
     vendor/google/shamrock/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/google/shamrock/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/google/shamrock/proprietary/vendor/bin/xtwifi-client:system/vendor/bin/xtwifi-client \
