@@ -146,7 +146,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/shamrock/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/google/shamrock/proprietary/vendor/bin/qti:system/vendor/bin/qti \
 	vendor/google/shamrock/proprietary/vendor/bin/sensors.qcom:system/vendor/bin/sensors.qcom \
-    vendor/google/shamrock/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/google/shamrock/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/google/shamrock/proprietary/vendor/bin/xtwifi-client:system/vendor/bin/xtwifi-client \
     vendor/google/shamrock/proprietary/vendor/bin/xtwifi-inet-agent:system/vendor/bin/xtwifi-inet-agent \
@@ -816,6 +815,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/shamrock/proprietary/vendor/lib/libois_lc898122.so:system/vendor/lib/libois_lc898122.so \
     vendor/google/shamrock/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/google/shamrock/proprietary/vendor/lib/libprdrmdecrypt.so:system/vendor/lib/libprdrmdecrypt.so \
+    vendor/google/shamrock/proprietary/vendor/lib/libprotobuf-cpp-shit.so:system/vendor/lib/libprotobuf-cpp-shit.so \
     vendor/google/shamrock/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/google/shamrock/proprietary/vendor/lib/libqcmaputils.so:system/vendor/lib/libqcmaputils.so \
     vendor/google/shamrock/proprietary/vendor/lib/libqct_resampler.so:system/vendor/lib/libqct_resampler.so \
@@ -853,6 +853,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/shamrock/proprietary/vendor/lib/libsecureuisvc_jni.so:system/vendor/lib/libsecureuisvc_jni.so \
     vendor/google/shamrock/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/google/shamrock/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
+    vendor/google/shamrock/proprietary/vendor/lib/libsettings.so:system/vendor/lib/libsettings.so \
     vendor/google/shamrock/proprietary/vendor/lib/libslimclient.so:system/vendor/lib/libslimclient.so \
     vendor/google/shamrock/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/google/shamrock/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
